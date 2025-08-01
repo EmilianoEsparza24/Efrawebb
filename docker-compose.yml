@@ -63,7 +63,7 @@ services:
       context: ./CRM
       dockerfile: Dockerfile
       args:
-        VITE_API_URL: https://www.leadscrm.store//api
+        VITE_API_URL: https://www.leadscrm.store/api
         VITE_SITE_KEY: 6LfEgY0rAAAAAPb1EZVec5XbDWoxq-OZ9yoMaGk3
         VITE_EMAILJS_SERVICE_ID: service_2xnyaq9
         VITE_EMAILJS_TEMPLATE_ID: template_nf5mr9q
