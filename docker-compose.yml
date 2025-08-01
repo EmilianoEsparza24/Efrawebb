@@ -75,7 +75,7 @@ services:
       - VITE_EMAILJS_SERVICE_ID=service_2xnyaq9
       - VITE_EMAILJS_TEMPLATE_ID=template_nf5mr9q
       - VITE_EMAILJS_USER_ID=quHUhGI9hpHAilvWd
-      - VITE_API_URL=http://localhost:3000
+      - VITE_API_URL=http://localhost:3000/api
     healthcheck:
       test:
         [
