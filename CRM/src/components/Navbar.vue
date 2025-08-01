@@ -22,15 +22,15 @@
 
         <!-- Navegación central -->
         <div class="hidden md:flex items-center space-x-8">
-          <a href="/dashboard" class="text-gray-600 hover:text-blue-600 transition-colors font-medium">
+          <router-link to="/dashboard" class="text-gray-600 hover:text-blue-600 transition-colors font-medium">
             Dashboard
-          </a>
-          <a href="/leads" class="text-gray-600 hover:text-blue-600 transition-colors font-medium">
+          </router-link>
+          <router-link to="/leads" class="text-gray-600 hover:text-blue-600 transition-colors font-medium">
             Leads
-          </a>
-          <a href="/reports" class="text-gray-600 hover:text-blue-600 transition-colors font-medium">
+          </router-link>
+          <router-link to="/reports" class="text-gray-600 hover:text-blue-600 transition-colors font-medium">
             Reportes
-          </a>
+          </router-link>
         </div>
 
         <!-- Acciones del usuario -->

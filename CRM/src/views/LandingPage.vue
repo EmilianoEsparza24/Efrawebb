@@ -20,16 +20,16 @@
             <a href="#features"
               class="text-gray-600 hover:text-blue-600 transition-colors font-medium">Características</a>
             <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors font-medium">Contacto</a>
-            <a href="/login"
+            <router-link to="/login"
               class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105">
               Comenzar ahora
-            </a>
+            </router-link>
           </nav>
           <!-- Mobile menu button -->
           <div class="md:hidden">
-            <a href="/login" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium">
+            <router-link to="/login" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium">
               Iniciar
-            </a>
+            </router-link>
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@
             en clientes satisfechos de manera automatizada.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="/login"
+            <router-link to="/login"
               class="group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-200 shadow-xl hover:shadow-2xl transform hover:scale-105">
               <span class="flex items-center space-x-2">
                 <span>Comenzar gratis</span>
@@ -70,7 +70,7 @@
                   </path>
                 </svg>
               </span>
-            </a>
+            </router-link>
             <a href="#contact" class="text-gray-600 hover:text-blue-600 font-semibold transition-colors text-lg">
               Ver demo →
             </a>
@@ -196,7 +196,8 @@
             <ul class="space-y-2">
               <li><a href="#features" class="text-gray-300 hover:text-white transition-colors">Características</a></li>
               <li><a href="#contact" class="text-gray-300 hover:text-white transition-colors">Contacto</a></li>
-              <li><a href="/login" class="text-gray-300 hover:text-white transition-colors">Iniciar Sesión</a></li>
+              <li><router-link to="/login" class="text-gray-300 hover:text-white transition-colors">Iniciar
+                  Sesión</router-link></li>
               <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Soporte</a></li>
             </ul>
           </div>

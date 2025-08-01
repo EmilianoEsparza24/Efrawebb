@@ -13,6 +13,20 @@ RUN npm ci
 # Copiar el código fuente
 COPY . .
 
+# Definir argumentos de build que se convertirán en variables de entorno
+ARG VITE_API_URL
+ARG VITE_SITE_KEY
+ARG VITE_EMAILJS_SERVICE_ID
+ARG VITE_EMAILJS_TEMPLATE_ID
+ARG VITE_EMAILJS_USER_ID
+
+# Establecer variables de entorno para el build
+ENV VITE_API_URL=$VITE_API_URL
+ENV VITE_SITE_KEY=$VITE_SITE_KEY
+ENV VITE_EMAILJS_SERVICE_ID=$VITE_EMAILJS_SERVICE_ID
+ENV VITE_EMAILJS_TEMPLATE_ID=$VITE_EMAILJS_TEMPLATE_ID
+ENV VITE_EMAILJS_USER_ID=$VITE_EMAILJS_USER_ID
+
 # Construir la aplicación para producción
 RUN npm run build
 
