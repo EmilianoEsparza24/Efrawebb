@@ -9,11 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
     "axios": "^1.10.0",
     "emailjs-com": "^3.2.0",
+    "tailwindcss": "^4.1.11",
     "vue": "^3.5.13",
-    "vue-recaptcha-v3": "^2.0.1",
-    "vue-router": "^4.5.1"
+    "vue-router": "^4.5.1",
+    "vue3-recaptcha-v2": "^2.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
