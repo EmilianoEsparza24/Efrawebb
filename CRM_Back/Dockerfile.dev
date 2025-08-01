@@ -1,0 +1,23 @@
+# Dockerfile para desarrollo del Backend
+FROM node:18-alpine
+
+# Instalar nodemon globalmente para desarrollo
+RUN npm install -g nodemon
+
+# Establecer directorio de trabajo
+WORKDIR /app
+
+# Copiar archivos de configuración de dependencias
+COPY package*.json ./
+
+# Instalar todas las dependencias (incluyendo devDependencies)
+RUN npm install
+
+# Copiar el código fuente
+COPY . .
+
+# Exponer puerto 3001 para desarrollo
+EXPOSE 3001
+
+# Comando para desarrollo con nodemon
+CMD ["nodemon", "index.js"]

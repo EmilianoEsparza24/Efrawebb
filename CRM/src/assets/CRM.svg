@@ -1,0 +1,14 @@
+<svg width="250" height="60" viewBox="0 0 250 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ícono de gráfico de barras -->
+  <rect x="10" y="25" width="6" height="25" rx="1" fill="#16A34A"></rect>
+  <rect x="20" y="15" width="6" height="35" rx="1" fill="#22C55E"></rect>
+  <rect x="30" y="5" width="6" height="45" rx="1" fill="#4ADE80"></rect>
+
+  <!-- Texto LeadCRM -->
+  <text x="50" y="40" font-family="Arial, sans-serif" font-size="24" fill="#16A34A" font-weight="bold">
+    Lead
+  </text>
+  <text x="110" y="40" font-family="Arial, sans-serif" font-size="24" fill="#4B5563" font-weight="bold">
+    CRM
+  </text>
+</svg>
