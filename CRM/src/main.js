@@ -6,7 +6,7 @@ import { install } from "vue3-recaptcha-v2";
 
 createApp(App)
   .use(install, {
-    sitekey: import.meta.env.VITE_SITE_KEY,
+    sitekey: "6LfEgY0rAAAAAPb1EZVec5XbDWoxq-OZ9yoMaGk3",
     cnDomains: false,
   })
   .use(router)
